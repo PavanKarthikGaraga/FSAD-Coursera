@@ -1,0 +1,57 @@
+/* General Styles */
+:root {
+  --primary-color: #2c5530;
+  --primary-dark: #1f3d22;
+  --text-color: #333;
+  --text-light: #6c757d;
+  --background-color: #f8f9fa;
+  --white: #ffffff;
+  --border-color: #e9ecef;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Common Elements */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-color);
+  line-height: 1.2;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* Material Icons */
+.material-icons {
+  font-size: 24px;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+} 
